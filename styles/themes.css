@@ -1,0 +1,97 @@
+.theme-rosewater {
+  --slidev-theme-primary: theme("colors.rosewater.dark");
+}
+.theme-rosewater:not(.dark) {
+  --slidev-theme-primary: theme("colors.rosewater.light");
+}
+
+.theme-flamingo {
+  --slidev-theme-primary: theme("colors.flamingo.dark");
+}
+.theme-flamingo:not(.dark) {
+  --slidev-theme-primary: theme("colors.flamingo.light");
+}
+
+.theme-pink {
+  --slidev-theme-primary: theme("colors.pink.dark");
+}
+.theme-pink:not(.dark) {
+  --slidev-theme-primary: theme("colors.pink.light");
+}
+
+.theme-mauve {
+  --slidev-theme-primary: theme("colors.mauve.dark");
+}
+.theme-mauve:not(.dark) {
+  --slidev-theme-primary: theme("colors.mauve.light");
+}
+
+.theme-red {
+  --slidev-theme-primary: theme("colors.red.dark");
+}
+.theme-red:not(.dark) {
+  --slidev-theme-primary: theme("colors.red.light");
+}
+
+.theme-maroon {
+  --slidev-theme-primary: theme("colors.maroon.dark");
+}
+.theme-maroon:not(.dark) {
+  --slidev-theme-primary: theme("colors.maroon.light");
+}
+
+.theme-peach {
+  --slidev-theme-primary: theme("colors.peach.dark");
+}
+.theme-peach:not(.dark) {
+  --slidev-theme-primary: theme("colors.peach.light");
+}
+
+.theme-yellow {
+  --slidev-theme-primary: theme("colors.yellow.dark");
+}
+.theme-yellow:not(.dark) {
+  --slidev-theme-primary: theme("colors.yellow.light");
+}
+
+.theme-green {
+  --slidev-theme-primary: theme("colors.green.dark");
+}
+.theme-green:not(.dark) {
+  --slidev-theme-primary: theme("colors.green.light");
+}
+
+.theme-teal {
+  --slidev-theme-primary: theme("colors.teal.dark");
+}
+.theme-teal:not(.dark) {
+  --slidev-theme-primary: theme("colors.teal.light");
+}
+
+.theme-sky {
+  --slidev-theme-primary: theme("colors.sky.dark");
+}
+.theme-sky:not(.dark) {
+  --slidev-theme-primary: theme("colors.sky.light");
+}
+
+.theme-sapphire {
+  --slidev-theme-primary: theme("colors.sapphire.dark");
+}
+.theme-sapphire:not(.dark) {
+  --slidev-theme-primary: theme("colors.sapphire.light");
+}
+
+.theme-blue {
+  --slidev-theme-primary: theme("colors.blue.dark");
+}
+.theme-blue:not(.dark) {
+  --slidev-theme-primary: theme("colors.blue.light");
+}
+
+.theme-lavender {
+  --slidev-theme-primary: theme("colors.lavender.dark");
+}
+.theme-lavender:not(.dark) {
+  --slidev-theme-primary: theme("colors.lavender.light");
+}

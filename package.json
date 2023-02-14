@@ -1,0 +1,52 @@
+{
+  "name": "slidev-theme-comfy",
+  "version": "0.0.0",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "slidev": ">=0.19.3"
+  },
+  "scripts": {
+    "build": "slidev build example.md",
+    "dev": "slidev example.md --open",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "dependencies": {
+    "@catppuccin/palette": "^0.1.6",
+    "@fontsource/rammetto-one": "^4.5.11",
+    "@slidev/types": "^0.40.2"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.35.2",
+    "@iconify-json/emojione": "^1.1.6",
+    "@iconify-json/fluent-emoji-flat": "^1.1.9",
+    "@iconify-json/game-icons": "^1.1.2",
+    "@iconify-json/icon-park": "^1.1.10",
+    "@iconify-json/icon-park-outline": "^1.1.10",
+    "@iconify-json/noto": "^1.1.11",
+    "@iconify-json/noto-v1": "^1.1.7",
+    "@iconify-json/twemoji": "^1.1.11",
+    "@slidev/cli": "^0.40.2",
+    "@types/node": "^18.13.0",
+    "eslint": "^8.34.0",
+    "typescript": "^4.9.5"
+  },
+  "//": "Learn more: https://sli.dev/themes/write-a-theme.html",
+  "slidev": {
+    "colorSchema": "both",
+    "highlighter": "shiki",
+    "defaults": {
+      "fonts": {
+        "sans": "Atkinson Hyperlegible",
+        "mono": "Mononoki"
+      },
+      "hightlighter": "shiki"
+    }
+  }
+}

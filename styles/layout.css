@@ -1,0 +1,9 @@
+:root {
+  --slidev-theme-primary: theme("colors.red.dark");
+  --theme-color: theme("colors.red.dark");
+}
+
+:root:not(.dark) {
+  --slidev-theme-primary: theme("colors.red.light");
+  --theme-color: theme("colors.red.light");
+}
