@@ -4,14 +4,9 @@ specifiers:
   '@antfu/eslint-config': ^0.35.2
   '@catppuccin/palette': ^0.1.6
   '@fontsource/rammetto-one': ^4.5.11
-  '@iconify-json/emojione': ^1.1.6
-  '@iconify-json/fluent-emoji-flat': ^1.1.9
-  '@iconify-json/game-icons': ^1.1.2
-  '@iconify-json/icon-park': ^1.1.10
-  '@iconify-json/icon-park-outline': ^1.1.10
   '@iconify-json/noto': ^1.1.11
   '@iconify-json/noto-v1': ^1.1.7
-  '@iconify-json/twemoji': ^1.1.11
+  '@iconify-json/openmoji': ^1.1.22
   '@slidev/cli': ^0.40.2
   '@slidev/types': ^0.40.2
   '@types/node': ^18.13.0
@@ -25,14 +20,9 @@ dependencies:
 
 devDependencies:
   '@antfu/eslint-config': 0.35.2_7kw3g6rralp5ps6mg3uyzz6azm
-  '@iconify-json/emojione': 1.1.6
-  '@iconify-json/fluent-emoji-flat': 1.1.9
-  '@iconify-json/game-icons': 1.1.2
-  '@iconify-json/icon-park': 1.1.10
-  '@iconify-json/icon-park-outline': 1.1.10
   '@iconify-json/noto': 1.1.11
   '@iconify-json/noto-v1': 1.1.7
-  '@iconify-json/twemoji': 1.1.11
+  '@iconify-json/openmoji': 1.1.22
   '@slidev/cli': 0.40.3_@types+node@18.13.0
   '@types/node': 18.13.0
   eslint: 8.34.0
@@ -735,36 +725,6 @@ packages:
       '@iconify/types': 2.0.0
     dev: true
 
-  /@iconify-json/emojione/1.1.6:
-    resolution: {integrity: sha512-laANH234XEzG8FyQV8PHHU70UCnNhyhqBB0fB2IFEcgPeno91WelVDuD/tSAhB0EgNp/w3RF+00n01/bc/ZEmQ==}
-    dependencies:
-      '@iconify/types': 2.0.0
-    dev: true
-
-  /@iconify-json/fluent-emoji-flat/1.1.9:
-    resolution: {integrity: sha512-DqPP15GpX3rBgr7dC84zWThS7tddp20P49aXX25sCFe2nPILdIyDCdG02C10DmUEKIvkQPbxZ+gNz6+zjsAjKg==}
-    dependencies:
-      '@iconify/types': 2.0.0
-    dev: true
-
-  /@iconify-json/game-icons/1.1.2:
-    resolution: {integrity: sha512-XZqaFmmkKRQLSx8cJDC1RVWRZ11VoBSWhbtH+unPd5dc2JE+aF/zEBKVfVMEIibFu1PEAcJSMmPe48cUtEjVwA==}
-    dependencies:
-      '@iconify/types': 2.0.0
-    dev: true
-
-  /@iconify-json/icon-park-outline/1.1.10:
-    resolution: {integrity: sha512-yi4Ge5dJj6gPCvj5CeG7hjx6xdjmFpn6+YxftSKZx8FQkerTHofD90agMDo8+zYH9FG2CwVM1okLEBkDQn0QBA==}
-    dependencies:
-      '@iconify/types': 2.0.0
-    dev: true
-
-  /@iconify-json/icon-park/1.1.10:
-    resolution: {integrity: sha512-jxEvEPtO7GbkZtdTB82eq6s7RV4wk8Ofo3mKXdJVazMUtME5GGwNrKDug3rNzv0axXU0sDMuaaBz5Pgp56IyXQ==}
-    dependencies:
-      '@iconify/types': 2.0.0
-    dev: true
-
   /@iconify-json/noto-v1/1.1.7:
     resolution: {integrity: sha512-Fr8tbt9pMsDuZn8i93T8eTBO8ZEfLLo+mcsVTP+UmuAAGYTSVjCsHtJLKGCfLZY46PGMgDah9CMixReiY1im6g==}
     dependencies:
@@ -777,14 +737,14 @@ packages:
       '@iconify/types': 2.0.0
     dev: true
 
-  /@iconify-json/ph/1.1.4:
-    resolution: {integrity: sha512-2A3+G/bvYB+ab1QL4SIsXVECvjSkSg+smNdWAg30QlksyZ1bI7Zh3wzyZCA2saDJPkVGyMJHSLI5EXExk/jmnQ==}
+  /@iconify-json/openmoji/1.1.22:
+    resolution: {integrity: sha512-2dTER7N333p4/K3Qu5kBqp61tqBA/8/jiIcT+n5+kYoxoAaFi5vCvtMz8QHYxMpb3kq7GOUi7vumcX2CmIAKiQ==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
 
-  /@iconify-json/twemoji/1.1.11:
-    resolution: {integrity: sha512-ZA2v2AGWPC0rxiZDLqsVD+DoYB3n5Ft5q0YYAsy9QyYvoNWSdh6Vxe5d3yUP4mSpNkE4YW96RAjiZu72uXb7kQ==}
+  /@iconify-json/ph/1.1.4:
+    resolution: {integrity: sha512-2A3+G/bvYB+ab1QL4SIsXVECvjSkSg+smNdWAg30QlksyZ1bI7Zh3wzyZCA2saDJPkVGyMJHSLI5EXExk/jmnQ==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true

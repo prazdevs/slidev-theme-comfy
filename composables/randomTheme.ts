@@ -1,32 +1,22 @@
-import { ref } from 'vue'
+import { computed } from 'vue'
 
-export const useRandomTheme = () => {
-  const colors = [
-    'rosewater',
-    'flamingo',
-    'pink',
-    'mauve',
-    'red',
-    'maroon',
-    'peach',
-    'yellow',
-    'green',
-    'teal',
-    'sky',
-    'sapphire',
-    'blue',
-    'lavender',
-  ]
-  const current = ref('')
+const colors = [
+  'rosewater',
+  'flamingo',
+  'pink',
+  'mauve',
+  'red',
+  'maroon',
+  'peach',
+  'yellow',
+  'green',
+  'teal',
+  'sky',
+  'sapphire',
+  'blue',
+  'lavender',
+]
 
-  const shuffle = () => {
-    const themes = colors.filter(c => c !== current.value)
-    current.value = themes[Math.floor(Math.random() * themes.length)]
-  }
-
-  shuffle()
-
-  return {
-    current, shuffle,
-  }
-}
+export const useRandomTheme = () => ({
+  current: computed(() => colors[Math.floor(Math.random() * colors.length)]),
+})

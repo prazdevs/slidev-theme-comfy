@@ -33,12 +33,17 @@ export default defineWindiSetup(() => ({
   },
   attributify: { prefix: 'w:' },
   shortcuts: {
+    'boxed': 'shadow-border shadow-primary transform -translate-x-3px -translate-y-3px',
+    'boxed-xl': 'shadow-border-xl shadow-primary transform -translate-x-7px -translate-y-7px',
+    'underlined-xl': 'underline decoration-primary decoration-4',
     // 'bg-main': 'bg-crust-light text-text-light dark:(bg-crust-dark text-text-dark)',
   },
   theme: {
     extend: {
       fontFamily: {
-        title: 'Rammetto One',
+        serif: 'Rammetto One',
+        sans: 'Atkinson Hyperlegible',
+        mono: 'Mononoki',
       },
       boxShadow: {
         'border': '0 0 0 2px var(--slidev-theme-primary), 6px 6px 0 0 var(--slidev-theme-primary)',

@@ -1,9 +1,15 @@
-:root {
-  --slidev-theme-primary: theme("colors.red.dark");
-  --theme-color: theme("colors.red.dark");
+* {
+  text-decoration-skip-ink: none;
 }
 
-:root:not(.dark) {
-  --slidev-theme-primary: theme("colors.red.light");
-  --theme-color: theme("colors.red.light");
+h1 {
+  @apply text-4xl mb-4 font-serif;
+}
+
+p {
+  @apply leading-relaxed;
+}
+
+a:hover {
+  @apply underline-offset-6;
 }
