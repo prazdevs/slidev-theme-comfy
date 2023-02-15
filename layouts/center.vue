@@ -1,9 +1,8 @@
 <template>
   <Themeify
+    class="comfy-layout"
     w:grid="~"
     w:place="content-center"
-    w:h="full"
-    w:p="10"
   >
     <slot />
   </Themeify>

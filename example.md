@@ -3,7 +3,7 @@ theme: ./
 layout: cover
 ---
 
-# Creating nice slides with Slidev
+Creating nice slides with Slidev
 
 ::subtitle::
 
@@ -13,32 +13,34 @@ or how to look like you know what you're doing...
 ---
 layout: intro
 image: /sacha.png
-hello: I'm Sacha
 ---
 
 # I'm Sacha
 
-- <img src="/zenika.png" class="inline-block mr-1 -mt-1" width="28.5" /> Frontend Consultant @ <a href="https://zenika.com" class="underlined-xl">Zenika</a>
+- <img src="/zenika.png" class="inline-block mr-1 -mt-1" width="28.5" /> Frontend consultant @ <a href="https://zenika.com">Zenika</a>
 - <noto-v1-flag-for-flag-france class="mr-1" /> I'm from France
-- <noto-guitar class="mr-1" /> I'm also a bass player
+- <noto-guitar class="mr-1" /> I'm a bass player
+- <noto-artist-palette class="mr-1" /> I'm also a cosplayer
 - <noto-smiling-cat-with-heart-eyes class="mr-1" /> And I love open source !
 
 ---
-layout: center
+layout: default
 ---
 
 # Navigation
 
 Hover on the bottom-left corner to see the navigation's controls panel
 
+> blockquote ?
+
 ### Keyboard Shortcuts
 
-|     |     |
+|   fds  |  fds   |
 | --- | --- |
 | <kbd>space</kbd> / <kbd>tab</kbd> / <kbd>right</kbd> | next animation or slide |
 | <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
 | <kbd>up</kbd> | previous slide |
-| <kbd>down</kbd> | next slide |
+| <kbd>down</kbd> | **next slide** |
 
 ---
 layout: end

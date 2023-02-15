@@ -1,5 +1,5 @@
 <template>
-  <Themeify w:p="10">
+  <Themeify class="comfy-layout">
     <slot />
   </Themeify>
 </template>

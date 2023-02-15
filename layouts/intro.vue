@@ -5,7 +5,7 @@ defineProps<{
 </script>
 
 <template>
-  <Themeify w:p="y-10 x-30">
+  <Themeify class="comfy-layout intro" w:p="y-10 x-30">
     <div
       w:h="full"
       w:flex="~"
@@ -29,3 +29,11 @@ defineProps<{
     </div>
   </Themeify>
 </template>
+
+<style lang="pcss">
+.comfy-layout.intro {
+  li::before {
+    content: none;
+  }
+}
+</style>

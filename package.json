@@ -19,6 +19,8 @@
   },
   "dependencies": {
     "@catppuccin/palette": "^0.1.6",
+    "@fontsource/atkinson-hyperlegible": "^4.5.11",
+    "@fontsource/mononoki": "^4.5.3",
     "@fontsource/rammetto-one": "^4.5.11",
     "@slidev/types": "^0.40.2"
   },

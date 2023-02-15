@@ -1,5 +1,5 @@
 <template>
-  <Themeify w:p="10">
+  <Themeify class="comfy-layout">
     <div
       class="boxed-xl"
       w:flex="~ col items-center justify-evenly"
@@ -9,7 +9,7 @@
       w:w="full"
       w:h="full"
     >
-      <div w:font="leading-relaxed" w:text="7xl center" w:mb="0">
+      <div w:font="serif leading-relaxed" w:text="7xl center" w:mb="0">
         <slot />
       </div>
       <div w:text="3xl center">

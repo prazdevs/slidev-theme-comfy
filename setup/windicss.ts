@@ -35,7 +35,7 @@ export default defineWindiSetup(() => ({
   shortcuts: {
     'boxed': 'shadow-border shadow-primary transform -translate-x-3px -translate-y-3px',
     'boxed-xl': 'shadow-border-xl shadow-primary transform -translate-x-7px -translate-y-7px',
-    'underlined-xl': 'underline decoration-primary decoration-4',
+    // 'underlined-xl': 'underline decoration-primary decoration-4',
     // 'bg-main': 'bg-crust-light text-text-light dark:(bg-crust-dark text-text-dark)',
   },
   theme: {
