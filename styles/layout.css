@@ -60,7 +60,7 @@
     /* box-shadow: theme("boxShadow.border"); */
 
     tr {
-      @apply border-b border-opacity-20;
+      @apply border-b-2 border-opacity-20;
       border-color: var(--slidev-theme-primary);
     }
 

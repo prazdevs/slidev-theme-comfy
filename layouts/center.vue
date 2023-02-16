@@ -1,6 +1,6 @@
 <template>
   <Themeify
-    class="comfy-layout"
+    class="comfy-layout center"
     w:grid="~"
     w:place="content-center"
   >

@@ -43,6 +43,12 @@ Hover on the bottom-left corner to see the navigation's controls panel
 | <kbd>down</kbd> | **next slide** |
 
 ---
+layout: iframe-right
+scale: 0.5
+url: https://prazdevs.github.io/pinia-plugin-persistedstate
+---
+# test
+---
 layout: end
 ---
 Thanks!
