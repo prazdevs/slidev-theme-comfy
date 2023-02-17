@@ -2,22 +2,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/slidev-theme-comfy?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-comfy)
 
-A (...) theme for [Slidev](https://github.com/slidevjs/slidev).
-
-<!--
-  Learn more about how to write a theme:
-  https://sli.dev/themes/write-a-theme.html
---->
-
-<!--
-  run `npm run dev` to check out the slides for more details of how to start writing a theme
--->
-
-<!--
-  Put some screenshots here to demonstrate your theme
-
-  Live demo: [...]
--->
+A comfortable theme for [Slidev](https://github.com/slidevjs/slidev).
 
 ## Install
 
@@ -33,13 +18,16 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 This theme provides the following layouts:
 
-> TODO:
+- intro: improved introduction theme with photo.
+- thanks: a good looking final slide with socials display.
+- and most of the usual Slidev layouts, with colors.
 
 ## Components
 
 This theme provides the following components:
 
-> TODO:
+- social: a small brick to display social links, made for `thanks` layout.
+- themeify: layout container to inject randomized theme.
 
 ## Contributing
 
@@ -48,3 +36,7 @@ This theme provides the following components:
 - Edit the `example.md` and style to see the changes
 - `npm run export` to generate the preview PDF
 - `npm run screenshot` to generate the preview PNG
+
+## Credits
+
+- [lihbr](https://github.com/lihbr/) for most of the randomized theme idea and code (see [slidev-theme-diapositive](https://github.com/lihbr/slidev-theme-diapositiv), it's incredibly good!)

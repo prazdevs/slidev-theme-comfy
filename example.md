@@ -79,6 +79,14 @@ function updateUser(id: number, update: Partial<User>) {
 And inline code `like this`.
 
 ---
+layout: fact
+---
+
+# And that's it!
+
+I think that's enough ?
+
+---
 layout: thanks
 ---
 Thanks!
