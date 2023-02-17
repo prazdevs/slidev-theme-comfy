@@ -39,4 +39,4 @@ This theme provides the following components:
 
 ## Credits
 
-- [lihbr](https://github.com/lihbr/) for most of the randomized theme idea and code (see [slidev-theme-diapositive](https://github.com/lihbr/slidev-theme-diapositiv), it's incredibly good!)
+- [lihbr](https://github.com/lihbr/) for most of the randomized theme idea and code (see [slidev-theme-diapositiv](https://github.com/lihbr/slidev-theme-diapositiv), it's incredibly good!)
