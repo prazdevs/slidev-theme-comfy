@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { resolveAssetUrl } from '@slidev/client/layoutHelper';
+
 defineProps<{
   image: string
 }>()
@@ -14,7 +16,7 @@ defineProps<{
     >
       <div w:w="2/5">
         <img
-          :src="image"
+          :src="resolveAssetUrl(image)"
           class="boxed-xl"
           w:object="cover"
           w:w="250px"
