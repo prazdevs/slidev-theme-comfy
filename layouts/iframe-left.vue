@@ -21,7 +21,7 @@ const percent = computed(() => `${1 / (props.scale || 1) * 100}%`)
       />
     </div>
     <Themeify
-      class="comfy-layout iframe-left"
+      class="slidev-layout iframe-left"
       w:border="primary l-2"
     >
       <slot />

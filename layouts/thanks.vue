@@ -1,5 +1,5 @@
 <template>
-  <Themeify class="comfy-layout end">
+  <Themeify class="slidev-layout end">
     <div
       class="boxed-xl"
       w:flex="~ col items-center justify-evenly"

@@ -1,6 +1,5 @@
 ---
 theme: ./
-layout: cover
 ---
 
 Creating nice slides with Slidev
@@ -9,33 +8,41 @@ Creating nice slides with Slidev
 
 or how to look like you know what you're doing...
 
-
 ---
 layout: intro
-image: /sacha.png
+image: /intro.jpg
 ---
 
-# I'm Sacha
+# I'm Comfy
 
-- <img src="/zenika.png" class="inline-block mr-1 -mt-1" width="28.5" /> Frontend consultant @ <a href="https://zenika.com">Zenika</a>
-- <noto-v1-flag-for-flag-france class="mr-1" /> I'm from France
-- <noto-guitar class="mr-1" /> I'm a bass player
-- <noto-artist-palette class="mr-1" /> I'm also a cosplayer
-- <noto-smiling-cat-with-heart-eyes class="mr-1" /> And I love open source !
+- <img src="/slidev.svg" class="inline-block mr-1 -mt-1" width="31" /> Delightful theme @ <a href="https://sli.dev">Slidev</a>
+- <noto-v1-flag-for-flag-france class="mr-1" /> I'm made in France
+- <noto-artist-palette class="mr-1" /> I'm very colourful
+- <noto-smiling-cat-with-heart-eyes class="mr-1" /> And I am open source !
 
 ---
-layout: default
+layout: center
 ---
 
-# Navigation
+# Center layout
 
-Hover on the bottom-left corner to see the navigation's controls panel
+Anything in this layout will be 100% centered.
 
-> blockquote ?
+---
 
-### Keyboard Shortcuts
+# Default layout
 
-|   fds  |  fds   |
+This is the default layout.
+
+<br>
+
+> and this is a blockquote
+
+<br>
+
+#### Navigation shortcuts
+
+|     |     |
 | --- | --- |
 | <kbd>space</kbd> / <kbd>tab</kbd> / <kbd>right</kbd> | next animation or slide |
 | <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
@@ -43,13 +50,36 @@ Hover on the bottom-left corner to see the navigation's controls panel
 | <kbd>down</kbd> | **next slide** |
 
 ---
-layout: iframe-right
-scale: 0.5
-url: https://prazdevs.github.io/pinia-plugin-persistedstate
+layout: two-cols-header
 ---
-# test
+
+# Two columns layout with code
+
+::left::
+
+Like this one 
+
+```ts
+interface User {
+  id: number
+  firstName: string
+  lastName: string
+  role: string
+}
+
+function updateUser(id: number, update: Partial<User>) {
+  const user = getUser(id)
+  const newUser = { ...user, ...update }
+  saveUser(id, newUser)
+}
+```
+
+::right::
+
+And inline code `like this`.
+
 ---
-layout: end
+layout: thanks
 ---
 Thanks!
 
@@ -67,36 +97,3 @@ Thanks!
   <template #icon><openmoji-twitter /></template>
   <a href="https://praz.red/twitter">praz.red/twitter</a>
 </social>
-
----
-layout: image-right
-image: 'https://source.unsplash.com/collection/94734566/1920x1080'
----
-
-# Code
-
-Use code snippets and get the highlighting directly!
-
-```ts
-interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
-}
-
-function updateUser(id: number, update: Partial<User>) {
-  const user = getUser(id)
-  const newUser = { ...user, ...update }
-  saveUser(id, newUser)
-}
-```
-
----
-layout: center
-class: "text-center"
----
-
-# Learn More
-
-[Documentations](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)

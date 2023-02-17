@@ -5,14 +5,14 @@ defineProps<{
 </script>
 
 <template>
-  <Themeify class="comfy-layout intro" w:p="y-10 x-30">
+  <Themeify class="slidev-layout intro" w:p="y-10 x-30">
     <div
       w:h="full"
       w:flex="~"
       w:justify="space-around"
       w:align="items-center"
     >
-      <div w:w="1/2">
+      <div w:w="2/5">
         <img
           :src="image"
           class="boxed-xl"
@@ -21,7 +21,7 @@ defineProps<{
           w:h="300px"
         >
       </div>
-      <div w:w="1/2" w:text="left">
+      <div w:w="3/5" w:text="left">
         <div w:text="2xl" w:font="leading-loose">
           <slot />
         </div>
@@ -31,7 +31,7 @@ defineProps<{
 </template>
 
 <style lang="pcss">
-.comfy-layout.intro {
+.slidev-layout.intro {
   li::before {
     content: none;
   }

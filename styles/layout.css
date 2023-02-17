@@ -1,5 +1,6 @@
-.comfy-layout {
-  @apply py-10 px-14 h-full text-[1.1rem];
+.slidev-layout {
+  text-decoration-skip-ink: none;
+  @apply py-10 px-14 h-full text-[1.1rem] leading-normal;
 
   h1 {
     @apply text-4xl mb-4 font-serif;
@@ -26,7 +27,7 @@
   }
 
   li {
-    @apply leading-[1.8em];
+    @apply leading-relaxed;
   }
 
   ul {
@@ -44,7 +45,7 @@
   }
 
   pre, code {
-    @apply select-text;
+    @apply select-text whitespace-pre-wrap;
   }
 
   blockquote {
@@ -84,7 +85,6 @@
 
   a {
     @apply underline;
-    text-decoration-skip-ink: none;
     text-decoration-thickness: 4px;
     text-decoration-color: var(--slidev-theme-primary);
     transition: text-decoration-color 200ms, color 200ms;
@@ -93,5 +93,20 @@
       color: var(--slidev-theme-primary);
       text-decoration-color: transparent;
     }
+  }
+
+  .shiki-container {
+    box-shadow: theme("boxShadow.border");
+    background-color: theme("colors.crust.dark");
+    @apply my-4 mx-2;
+    @apply transform -translate-x-7px -translate-y-7px;
+  }
+
+  .slidev-code {
+    @apply bg-transparent;
+  }
+
+  .slidev-code-copy {
+    @apply right-6 hover:!opacity-50;
   }
 }

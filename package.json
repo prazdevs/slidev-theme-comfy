@@ -43,8 +43,7 @@
         "serif": "Rammetto One",
         "sans": "Atkinson Hyperlegible",
         "mono": "Mononoki"
-      },
-      "hightlighter": "shiki"
+      }
     }
   }
 }
