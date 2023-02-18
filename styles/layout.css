@@ -1,4 +1,4 @@
-.slidev-layout {
+.slidev-layout:not(.slidev-info-dialog) {
   text-decoration-skip-ink: none;
   @apply py-10 px-14 h-full text-[1.1rem] leading-normal;
 
@@ -108,5 +108,20 @@
 
   .slidev-code-copy {
     @apply right-6 hover:!opacity-50;
+  }
+}
+
+.slidev-info-dialog {
+  div:first-child {
+    h2 {
+      @apply text-2xl mb-4;
+    }
+    a {
+      @apply underline;
+
+      &:hover {
+        @apply  text-[#2082a6] no-underline;
+      }
+    }
   }
 }

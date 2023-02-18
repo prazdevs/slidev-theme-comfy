@@ -1,5 +1,11 @@
 ---
 theme: ./
+title: Comfy theme preview
+info: |
+  ## slidev-theme-comfy
+  A comfortable and readable Slidev theme.
+
+  Made by [praz](https://praz.dev).
 ---
 
 Creating nice slides with Slidev
