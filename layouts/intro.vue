@@ -7,7 +7,7 @@ defineProps<{
 </script>
 
 <template>
-  <Themeify class="slidev-layout intro" w:p="y-10 x-30">
+  <Themeify class="slidev-layout intro" w:p="!x-30">
     <div
       w:h="full"
       w:flex="~"
