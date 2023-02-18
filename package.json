@@ -1,6 +1,6 @@
 {
   "name": "slidev-theme-comfy",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "keywords": [
     "slidev-theme",
     "slidev"
@@ -23,15 +23,15 @@
     "@fontsource/atkinson-hyperlegible": "^4.5.11",
     "@fontsource/mononoki": "^4.5.3",
     "@fontsource/rammetto-one": "^4.5.11",
-    "@slidev/types": "^0.40.2"
+    "@slidev/types": "^0.40.3"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.35.2",
     "@iconify-json/noto": "^1.1.11",
     "@iconify-json/noto-v1": "^1.1.7",
     "@iconify-json/openmoji": "^1.1.22",
-    "@slidev/cli": "^0.40.2",
-    "@types/node": "^18.13.0",
+    "@slidev/cli": "^0.40.3",
+    "@types/node": "^18.14.0",
     "eslint": "^8.34.0",
     "typescript": "^4.9.5"
   },
