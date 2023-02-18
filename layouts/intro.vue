@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { resolveAssetUrl } from '@slidev/client/layoutHelper';
+import { resolveAssetUrl } from '@slidev/client/layoutHelper'
 
 defineProps<{
   image: string
@@ -35,7 +35,7 @@ defineProps<{
 <style lang="pcss">
 .slidev-layout.intro {
   li::before {
-    content: none;
+    content: none !important;
   }
 }
 </style>

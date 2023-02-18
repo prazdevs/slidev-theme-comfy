@@ -102,12 +102,16 @@
     @apply transform -translate-x-7px -translate-y-7px;
   }
 
+  .slidev-code-wrapper {
+    @apply w-max;
+  }
+
   .slidev-code {
     @apply bg-transparent;
   }
 
   .slidev-code-copy {
-    @apply right-6 hover:!opacity-50;
+    @apply right-6 hover:!opacity-50 -m-1;
   }
 }
 

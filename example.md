@@ -56,14 +56,10 @@ This is the default layout.
 | <kbd>down</kbd> | **next slide** |
 
 ---
-layout: two-cols-header
+layout: default
 ---
 
-# Two columns layout with code
-
-::left::
-
-Like this one 
+# Some code
 
 ```ts
 interface User {
@@ -80,9 +76,19 @@ function updateUser(id: number, update: Partial<User>) {
 }
 ```
 
+---
+layout: two-cols-header
+---
+
+# Two columns layout
+
+::left::
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in nisi leo. Suspendisse a efficitur augue. Nam consectetur aliquet lectus, quis ultricies massa fermentum eu. Aenean ut auctor nibh, in euismod quam. Ut tincidunt iaculis justo lacinia dapibus. Etiam vitae sagittis tortor. 
+
 ::right::
 
-And inline code `like this`.
+Phasellus tristique non augue iaculis fermentum. Fusce condimentum commodo diam nec viverra. Curabitur a est imperdiet, aliquet orci at, sodales justo. Donec pretium est quam, ullamcorper dictum lectus porta vel. Suspendisse vulputate nulla in mi congue, nec facilisis turpis tincidunt. 
 
 ---
 layout: fact
