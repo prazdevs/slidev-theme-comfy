@@ -103,7 +103,7 @@
   }
 
   .slidev-code-wrapper {
-    @apply w-max;
+    @apply w-max p-1;
   }
 
   .slidev-code {
@@ -111,7 +111,7 @@
   }
 
   .slidev-code-copy {
-    @apply right-6 hover:!opacity-50 -m-1;
+    @apply right-6 top-4 hover:!opacity-50 -m-1;
   }
 }
 

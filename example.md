@@ -75,6 +75,14 @@ function updateUser(id: number, update: Partial<User>) {
   saveUser(id, newUser)
 }
 ```
+Hello
+```ts
+function updateUser(id: number, update: Partial<User>) {
+  const user = getUser(id)
+  const newUser = { ...user, ...update }
+  saveUser(id, newUser)
+}
+```
 
 ---
 layout: two-cols-header
