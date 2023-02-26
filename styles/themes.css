@@ -1,97 +1,97 @@
 .theme-rosewater {
-  --slidev-theme-primary: theme("colors.rosewater.dark");
+  --slidev-theme-primary: var(--ctp-mocha-rosewater);
 }
 .theme-rosewater:not(.dark) {
-  --slidev-theme-primary: theme("colors.rosewater.light");
+  --slidev-theme-primary: var(--ctp-latte-rosewater);
 }
 
 .theme-flamingo {
-  --slidev-theme-primary: theme("colors.flamingo.dark");
+  --slidev-theme-primary: var(--ctp-mocha-flamingo);
 }
 .theme-flamingo:not(.dark) {
-  --slidev-theme-primary: theme("colors.flamingo.light");
+  --slidev-theme-primary: var(--ctp-latte-flamingo);
 }
 
 .theme-pink {
-  --slidev-theme-primary: theme("colors.pink.dark");
+  --slidev-theme-primary: var(--ctp-mocha-pink);
 }
 .theme-pink:not(.dark) {
-  --slidev-theme-primary: theme("colors.pink.light");
+  --slidev-theme-primary: var(--ctp-latte-pink);
 }
 
 .theme-mauve {
-  --slidev-theme-primary: theme("colors.mauve.dark");
+  --slidev-theme-primary: var(--ctp-mocha-mauve);
 }
 .theme-mauve:not(.dark) {
-  --slidev-theme-primary: theme("colors.mauve.light");
+  --slidev-theme-primary: var(--ctp-latte-mauve);
 }
 
 .theme-red {
-  --slidev-theme-primary: theme("colors.red.dark");
+  --slidev-theme-primary: var(--ctp-mocha-red);
 }
 .theme-red:not(.dark) {
-  --slidev-theme-primary: theme("colors.red.light");
+  --slidev-theme-primary: var(--ctp-latte-red);
 }
 
 .theme-maroon {
-  --slidev-theme-primary: theme("colors.maroon.dark");
+  --slidev-theme-primary: var(--ctp-mocha-maroon);
 }
 .theme-maroon:not(.dark) {
-  --slidev-theme-primary: theme("colors.maroon.light");
+  --slidev-theme-primary: var(--ctp-latte-maroon);
 }
 
 .theme-peach {
-  --slidev-theme-primary: theme("colors.peach.dark");
+  --slidev-theme-primary: var(--ctp-mocha-peach);
 }
 .theme-peach:not(.dark) {
-  --slidev-theme-primary: theme("colors.peach.light");
+  --slidev-theme-primary: var(--ctp-latte-peach);
 }
 
 .theme-yellow {
-  --slidev-theme-primary: theme("colors.yellow.dark");
+  --slidev-theme-primary: var(--ctp-mocha-yellow);
 }
 .theme-yellow:not(.dark) {
-  --slidev-theme-primary: theme("colors.yellow.light");
+  --slidev-theme-primary: var(--ctp-latte-yellow);
 }
 
 .theme-green {
-  --slidev-theme-primary: theme("colors.green.dark");
+  --slidev-theme-primary: var(--ctp-mocha-green);
 }
 .theme-green:not(.dark) {
-  --slidev-theme-primary: theme("colors.green.light");
+  --slidev-theme-primary: var(--ctp-latte-green);
 }
 
 .theme-teal {
-  --slidev-theme-primary: theme("colors.teal.dark");
+  --slidev-theme-primary: var(--ctp-mocha-teal);
 }
 .theme-teal:not(.dark) {
-  --slidev-theme-primary: theme("colors.teal.light");
+  --slidev-theme-primary: var(--ctp-latte-teal);
 }
 
 .theme-sky {
-  --slidev-theme-primary: theme("colors.sky.dark");
+  --slidev-theme-primary: var(--ctp-mocha-sky);
 }
 .theme-sky:not(.dark) {
-  --slidev-theme-primary: theme("colors.sky.light");
+  --slidev-theme-primary: var(--ctp-latte-sky);
 }
 
 .theme-sapphire {
-  --slidev-theme-primary: theme("colors.sapphire.dark");
+  --slidev-theme-primary: var(--ctp-mocha-sapphire);
 }
 .theme-sapphire:not(.dark) {
-  --slidev-theme-primary: theme("colors.sapphire.light");
+  --slidev-theme-primary: var(--ctp-latte-sapphire);
 }
 
 .theme-blue {
-  --slidev-theme-primary: theme("colors.blue.dark");
+  --slidev-theme-primary: var(--ctp-mocha-blue);
 }
 .theme-blue:not(.dark) {
-  --slidev-theme-primary: theme("colors.blue.light");
+  --slidev-theme-primary: var(--ctp-latte-blue);
 }
 
 .theme-lavender {
-  --slidev-theme-primary: theme("colors.lavender.dark");
+  --slidev-theme-primary: var(--ctp-mocha-lavender);
 }
 .theme-lavender:not(.dark) {
-  --slidev-theme-primary: theme("colors.lavender.light");
+  --slidev-theme-primary: var(--ctp-latte-lavender);
 }

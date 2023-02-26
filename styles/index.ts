@@ -1,4 +1,5 @@
-// inherit from base layouts, remove it to get full customizations
+import '@catppuccin/palette/style'
+
 import './layout.css'
 import './themes.css'
 
